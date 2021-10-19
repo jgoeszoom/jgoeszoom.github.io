@@ -1,17 +1,60 @@
 ---
 layout: default
-title: Joseph Gozum
+title: Hi there, I'm Joseph Gozum!
 ---
+<h1>{{ page.title }}</h1>
+
 <div class="blurb">
-	<h1>Hi there, I'm Joseph Gozum!</h1>
 	<p>
-		<b>ABOUT</b><br/>	
-	   	I'm currently a 4th-year Undergraduate at the University of California, Riverside.<br/>
-		I am in the process of receiving my Bachelor's in Science in Electrical Engineering. Be sure to check out my resume if you
-		haven't already!<br/>
-		My interests tend towards Machine Learning, Virtual Reality, and the Internet-of-Things.
+		I'm a fresh graduate from Califronia State Polytechnic University, Pomona.<br/>
+		I just recieved my Master's of Science in Electrical Engineering. Be sure to check out my resume if you haven't already!<br/>
+		My interests lie in Machine Learning (ML), Computer Vision, Web Development, and Internet-of-Things.<br />
+		I've been unemployed for:
+		<div class="timer">
+			<span class="digit">      
+				<div id="days"></div>
+				<div class="tag">Days</div>
+			</span>
+			<span class="digit">      
+				<div id="hours"></div>
+				<div class="tag">Hours</div>
+			</span>
+			<span class="digit">
+				<div id="minutes"></div>
+				<div class="tag">Minutes</div>
+			</span>
+			<span class="digit">
+				<div id="seconds"></div>
+				<div class="tag">Seconds</div>
+			</span>
+		</div>
 		</br>
 		</br>
-		<b>Email</b>: joseph [dot] f [dot] gozum [at] gmail [dot] com
+		<b>Email</b>: joseph [dot] f [dot] gozum [at] gmail [dot] com	
 	</p>
 </div><!-- /.blurb -->
+
+<script>
+	function calculateDays() {
+	const msInADay = 1000 * 60 * 60 * 24
+	const startDate = new Date(2021, 6)
+	const today = Date.now()
+	
+	var days = (today - startDate) / msInADay
+	var hours = (days - Math.floor(days)) * 24
+	var minutes = (hours - Math.floor(hours)) * 60
+	var seconds = (minutes - Math.floor(minutes)) * 60
+
+	const tho = document.getElementById("days")
+	const hun = document.getElementById("hours")
+	const ten = document.getElementById("minutes")
+	const one = document.getElementById("seconds")
+
+	tho.innerHTML = Math.floor(days)
+	hun.innerHTML = Math.floor(hours)
+	ten.innerHTML = Math.floor(minutes)
+	one.innerHTML = Math.floor(seconds)
+	}
+
+	setInterval(calculateDays, 1000)
+</script>

@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+}
+
+:root {  
+  --pal-1: #3D5A80;
+  --pal-2: #98C1D9;
+  --pal-3: #E0FBFC;
+  --pal-4: #EE6C4D;
+  --pal-5: #293241;
+
+    font-family: 'Roboto', sans-serif;
+    color: var(--pal-5);
+}
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -33,11 +49,49 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
+ul.projects { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
 
-ul.posts li {
+ul.projects li {
     list-style: none;
 }
+
+.timer {
+    width: 425px;
+    padding-bottom: 1.5rem;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 1rem;
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  .digit {
+    width: 100px;
+    height: 75px;
+    margin: 0 0.5rem;
+    padding: 0;
+    padding-top: 1rem;
+    position: relative;
+  
+    font-size: 2rem;
+    text-align: center;
+  
+    color: white;
+    background-color: var(--pal-5);
+    border-radius: 10px;
+  }
+  
+  .tag {
+    width: 100%;
+    position: absolute;
+    bottom: 0.5rem;
+  
+    text-align: center;
+    font-size: 1rem;
+  
+    color: white;
+  }
