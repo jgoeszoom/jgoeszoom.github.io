@@ -4,3 +4,8 @@ permalink: /blog/:year/:month/:day/:title
 collections:
   projects:
     output: true
+defaults:
+  -scope:
+    path: "assets/imgs/"
+  values:
+    images: true

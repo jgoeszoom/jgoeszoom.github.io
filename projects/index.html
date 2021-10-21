@@ -2,13 +2,32 @@
 layout: default
 title: My Projects
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="projects">
-	  {% for proj in site.projects %}
-	    <li>
-			<h2>{{ proj.title }}</h2>
-			<a href="{{ proj.url }}" title="{{ proj.title }}"><h3>LINK</h3></a>
-			{{ proj.desc }}
-		</li>
-	  {% endfor %}
-	</ul>
+<h1>{{ page.title }}</h1>
+
+{% for proj in site.projects %}
+	<div class="card">
+		<div class="flex"> 
+			<a class="proj-link" href="{{ proj.url }}"><img class="proj-thumb" src="/assets/imgs/{{ proj.img }}"></a>
+			<div class="proj-text">
+				<a class="proj-link" href="{{ proj.url }}">
+					<h2 class="proj-header">{{ proj.title }}</h2>
+				</a>
+				<a class="proj-out" href="{{ proj.proj-link }}"><em>» {{ proj.proj-link }}</em></a>
+				<p class="proj-desc">
+					{{ proj.desc }}
+				</p>
+			</div>
+		</div>
+	</div>
+{% endfor %}
+
+<!-- 
+<ul class="projects">
+	
+	<li>
+		<h2>{{ proj.title }}</h2>
+		<a href="{{ proj.url }}" title="{{ proj.title }}"><h3>LINK</h3></a>
+		{{ proj.desc }}
+	</li>
+	
+</ul> -->
