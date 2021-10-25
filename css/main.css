@@ -70,7 +70,8 @@ ul.projects li {
 }
 
 .date {
-    float: right;
+    /*float: right;*/
+    /*flex-wrap:wrap;*/
 }
 
 .no-list {
