@@ -5,10 +5,13 @@ title: Reports
 <h1>{{ page.title }}</h1>
 
 <div>
-    <ul>
+    <ul class="no-list">
         {% for report in site.static_files %}
             {% if report.path contains 'reports' %}
-                <li><a href="{{ site.baseurl }}{{ report.path }}">{{ report.basename }}</a></li>
+            <li>
+                <!-- <embed src="{{ site.baseurl }}{{ report.path }}" width=600px height=500px type="application/pdf"></embed> -->
+                <a href="{{ site.baseurl }}{{ report.path }}">{{ report.basename }}</a>
+            </li>
             {% endif %}
         {% endfor %}
     </ul>

@@ -65,6 +65,18 @@ ul.projects li {
     list-style: none;
 }
 
+.uline {
+    text-decoration: underline;
+}
+
+.date {
+    float: right;
+}
+
+.no-list {
+    list-style: none;
+}
+
 .timer {
     width: 425px;
     padding-bottom: 1.5rem;
