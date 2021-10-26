@@ -1,15 +1,16 @@
 ---
 layout: default
-title: Hi there, I'm Joseph Gozum!
+title: Hi there, I'm Joseph Gozum! 🖐
 ---
 <h1>{{ page.title }}</h1>
 
 <div class="blurb">
 	<p>
 		I'm a fresh graduate from Califronia State Polytechnic University, Pomona.<br/>
-		I just recieved my Master's of Science in Electrical Engineering. Be sure to check out my resume if you haven't already!<br/>
-		My interests lie in Machine Learning (ML), Computer Vision, Web Development, and Internet-of-Things.<br />
-		I've been unemployed for:
+		I just recieved my Master's of Science in Electrical Engineering. Be sure to check out my resume if you haven't already!
+		You can also just check out my About Me, they look pretty much the same. <br/>
+		My interests lie in Computer Vision, Data Visualization, Web Development, and FPGAs.<br/><br/>
+		I've been unemployed (😭) for:
 		<div class="timer">
 			<span class="digit">      
 				<div id="days"></div>
@@ -28,8 +29,6 @@ title: Hi there, I'm Joseph Gozum!
 				<div class="tag">Seconds</div>
 			</span>
 		</div>
-		</br>
-		</br>
 		<b>Email</b>: joseph [dot] f [dot] gozum [at] gmail [dot] com	
 	</p>
 </div><!-- /.blurb -->
@@ -37,9 +36,9 @@ title: Hi there, I'm Joseph Gozum!
 <script>
 	function calculateDays() {
 	const msInADay = 1000 * 60 * 60 * 24
-	const startDate = new Date(2021, 6)
+	const startDate = new Date(2021, 8)
 	const today = Date.now()
-	
+
 	var days = (today - startDate) / msInADay
 	var hours = (days - Math.floor(days)) * 24
 	var minutes = (hours - Math.floor(hours)) * 60
