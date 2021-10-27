@@ -158,3 +158,20 @@ ul.projects li {
     text-decoration: none;
     color: var(--blue-300);
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+/* Create 3 equal columns that sits next to each other */
+.column {
+    flex: 33%;
+    padding: 0;
+}
+  
+.column img {
+    margin-top: 4px;
+    vertical-align: middle;
+}
