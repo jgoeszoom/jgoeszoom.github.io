@@ -24,6 +24,7 @@ img {
     margin: 0 auto;
     width: 80%;
 }
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -162,16 +163,21 @@ ul.projects li {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    flex: 1;
   }
   
-/* Create 3 equal columns that sits next to each other */
 .column {
     flex: 33%;
-    padding: 0;
 }
-  
-.column img {
-    margin-top: 4px;
+
+.img-tile {
     vertical-align: middle;
+    border-radius: 1;    
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    margin-right: 4px; 
+    margin-left: 2px;
+    width: 98%;
 }
+
