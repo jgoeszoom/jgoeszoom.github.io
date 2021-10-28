@@ -170,14 +170,9 @@ ul.projects li {
     flex: 33%;
 }
 
-.img-tile {
-    vertical-align: middle;
-    border-radius: 1;    
-    display: block;
-    margin-top: 2px;
-    margin-bottom: 4px;
-    margin-right: 4px; 
-    margin-left: 2px;
-    width: 98%;
+.link-tile {
+    background-color: #EE6C4D; 
+    padding: 80px; 
+    border: 1px solid black; 
 }
 
