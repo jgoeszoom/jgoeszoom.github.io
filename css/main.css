@@ -162,7 +162,7 @@ ul.projects li {
 
 .row {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex: 33%;
   }
   

@@ -7,19 +7,13 @@ title: My Projects
 <p>Click on one to find out more!</p>
 
 <div class="row">
-	<div class="column">
-		<a href="/"><div class="link-tile">Die Value<br/>Counter</div></a>
-		<a href="/"><div class="link-tile">Diode Redesign</div></a>
-		<a href="/"><div class="link-tile">ML Framework<br/>Comparison</div></a>
-	</div>
-	<div class="column">
-		<a href="/"><div class="link-tile">Master's Capstone<br/>Project</div></a>
-		<a href="/"><div class="link-tile">New Spotify Listens<br/>Monthly</div></a>
-		<a href="/"><div class="link-tile">Undergrad Capstone</div></a>
-	</div>
-	<div class="column">
-		<a href="/"><div class="link-tile">Technical Writing<br/>examples</div></a>
-	</div>
+	{% for project in site.projects %}
+		{% cycle '<div class="column">', '', '' %}
+			<a href="{{ project.url }}">
+				<div class="link-tile">{{ project.title }}</div>
+			</a>
+		{% cycle '', '', '</div>' %}
+	{% endfor %}
 </div>
 
 <br/><br/>

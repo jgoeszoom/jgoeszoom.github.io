@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Umbras delata: memor ruris"
+title: "ML Framework Comparison"
 proj-link: https://github.com/jgoeszoom/
 desc: "Multum tramite tuens conplecti Cycnum aristas"
 img: "tacos.jpg"
