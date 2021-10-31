@@ -41,7 +41,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    color: var(--pal-1);
+    color: var(--pal-4);
 }
 h1 {
     font-size: 3em;
@@ -132,7 +132,7 @@ ul.projects li {
 .proj-link {
     width: 80%;
     margin: 0 auto;
-    color: var(--pal-5);
+    color: var(--pal-3);
 }
 
 .proj-thumb {
@@ -162,8 +162,8 @@ ul.projects li {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
-    flex: 1;
+    flex-wrap: nowrap;
+    flex: 33%;
   }
   
 .column {
@@ -171,8 +171,13 @@ ul.projects li {
 }
 
 .link-tile {
-    background-color: #EE6C4D; 
+    background-color: var(--pal-2); 
+    border-radius: 0.5em;
     padding: 80px; 
-    border: 1px solid black; 
+    margin-bottom: 0.25em;
+    margin-right: 0.25em;
+    border: 1px solid var(--pal-1);
+    color: var(--pal-3); 
+    text-align: center;
 }
 
