@@ -7,21 +7,14 @@ title: My Projects
 <p>Click on one to find out more!</p>
 
 <div class="row">
-	<div class="column">
-		<a href="/"><div class="link-tile">Hello!</div></a>
-		<a href="/"><div class="link-tile">Hello!</div></a>
-		<a href="/"><div class="link-tile">Hello!</div></a>
-	</div>
-	<div class="column">
-		<a href="/"><div class="link-tile">Hello!</div></a>
-		<a href="/"><div class="link-tile">Hello!</div></a>
-		<a href="/"><div class="link-tile">Hello!</div></a>
-	</div>
-	<div class="column">
-		<a href="/"><div class="link-tile">Hello!</div></a>
-		<a href="/"><div class="link-tile">Hello!</div></a>
-		<a href="/"><div class="link-tile">Hello!</div></a>
-	</div>
+{% for project in site.projects %}
+	{% cycle '<div class="column">', '', '' %}
+    	<a href="{{ project.url }}">
+		<div class="link-tile">{{ project.title }}</div>
+		</a>
+	{% cycle '', '', '</div>' %}
+  </div>
+{% endfor %}
 </div>
 
 <br/><br/>
