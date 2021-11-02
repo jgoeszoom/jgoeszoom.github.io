@@ -2,3 +2,4 @@ _site/
 _posts/
 Gemfile
 Gemfile.lock
+.jekyll-cache/
