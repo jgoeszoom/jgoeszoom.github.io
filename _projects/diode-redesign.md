@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Diode Redesign"
-proj-link: https://github.com/jgoeszoom/
+proj-link: 
 desc: "Multum tramite tuens conplecti Cycnum aristas"
 img: "tacos.jpg"
 ---

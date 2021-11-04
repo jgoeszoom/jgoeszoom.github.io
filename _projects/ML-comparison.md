@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "ML Framework Comparison"
-proj-link: https://github.com/jgoeszoom/
+proj-link: https://github.com/jgoeszoom/framework-overhead
 desc: "Multum tramite tuens conplecti Cycnum aristas"
 img: "tacos.jpg"
 ---
