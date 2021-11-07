@@ -2,32 +2,15 @@
 layout: project
 title: "Diode Redesign"
 proj-link: 
-desc: "Multum tramite tuens conplecti Cycnum aristas"
-img: "tacos.jpg"
+desc: "Diode simulation results"
+img: "diode.png"
 ---
-# Senectus cuperet
+# Designing a Diode to handle higher voltages (>0.7V) through manipulation of STI and N+, P+ diffusion wells
 
-## Armis pectine
+## By Joseph Gozum & Martin Liu
 
-Lorem markdownum turis, una inque Chaonius inquit titubat pervenit mea capit
-differt sortes Amore morte Asopiades erat cecidere miscuit. Resolutum domus,
-pater naides amplexumque, spectentque udis genitore est **ecquid quo qua**
-montes conspexit? Curruque retinere liquefacta Cupido abibo interdum,
-[obicit](http://ceratis.com/mihi.html) ad aurum quoque amicas laborem frugum.
+During my third year of undergraduate school at university, I took a class on designing integrated circuits (IC) and systems and how to design-for-reliability. Typically, this meant protecting ICs from electrostatic discharge (ESD). 
 
-    if (dtd) {
-        file = software_motion_pda;
-        dual(index_output.ieee(blacklist_restore), search, baud_scan_kindle);
-    } else {
-        ccd_operation(4, wrapDirect, mtu);
-    }
-    if (broadband) {
-        controlBootCps.publishing_dma_cisc = commercial_and;
-    } else {
-        trojan.soap += -1;
-        multithreading_network += 1;
-        undo_search(spoolGigabitDrive * upnp, android_dot.ediMemory.io_fi_rss(
-                winsock_flatbed, pmu_hot, mashup), page_vga_virtual);
-    }
-    var left_password_dongle = veronicaBackside(pushDrag(powerpoint_cc,
-            key_icq_xhtml), 4 - 5 + recordProperty, -1);
+For the final project in the class, my partner and I redesigned the typical silicon diode that usually experiences breakdown at 0.7V and increased that voltage breakdown level. Creating a diode with a greater breakdown voltage allows it to be used in more cases with higher voltage requirements. We manipulated the diffusion wells of the diode which had the affect of increasing the breakdown voltage. 
+<!--[obicit](http://ceratis.com/mihi.html)--> 
+
