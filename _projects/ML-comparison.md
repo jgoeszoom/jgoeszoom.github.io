@@ -2,32 +2,17 @@
 layout: project
 title: "ML Framework Comparison"
 proj-link: https://github.com/jgoeszoom/framework-overhead
-desc: "Multum tramite tuens conplecti Cycnum aristas"
-img: "tacos.jpg"
+desc: "The varying types of neural network frameworks"
+img: "ML_frameworks.jpg"
 ---
-# Senectus cuperet
+# Performance and User-friendliness of low-level vs higher-level deep neural network frameworks
 
-## Armis pectine
+## By Joseph Gozum, Jack Gu, Justin Lam
 
-Lorem markdownum turis, una inque Chaonius inquit titubat pervenit mea capit
-differt sortes Amore morte Asopiades erat cecidere miscuit. Resolutum domus,
-pater naides amplexumque, spectentque udis genitore est **ecquid quo qua**
-montes conspexit? Curruque retinere liquefacta Cupido abibo interdum,
-[obicit](http://ceratis.com/mihi.html) ad aurum quoque amicas laborem frugum.
+During my third year of undergraduate school at university, I was taking a class on using Nvidia GPUs to accelerate certain computer processes such as vector multipication. For the final project of the class was to create a project exploring their uses and at the same time, deep neural network frameworks were expanding and becoming very popular. 
 
-    if (dtd) {
-        file = software_motion_pda;
-        dual(index_output.ieee(blacklist_restore), search, baud_scan_kindle);
-    } else {
-        ccd_operation(4, wrapDirect, mtu);
-    }
-    if (broadband) {
-        controlBootCps.publishing_dma_cisc = commercial_and;
-    } else {
-        trojan.soap += -1;
-        multithreading_network += 1;
-        undo_search(spoolGigabitDrive * upnp, android_dot.ediMemory.io_fi_rss(
-                winsock_flatbed, pmu_hot, mashup), page_vga_virtual);
-    }
-    var left_password_dongle = veronicaBackside(pushDrag(powerpoint_cc,
-            key_icq_xhtml), 4 - 5 + recordProperty, -1);
+So my group decided to explore different deep neural network frameworks at varying levels of abstraction (e.g., cuDNN (lowest), Tensorflow (middle), and Keras(highest)). We looked at the performance changes between each and the user friendliness. 
+
+The main metrics that we looked at was the amount of lines of code and how long it took to compute an interference (i.e., going through the neural network). 
+
+<!--[obicit](http://ceratis.com/mihi.html)--> 
