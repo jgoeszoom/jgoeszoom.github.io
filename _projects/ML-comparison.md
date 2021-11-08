@@ -1,11 +1,10 @@
 ---
 layout: project
-title: "ML Framework Comparison"
+title: "Performance and User-friendliness of low-level vs higher-level deep neural network frameworks"
 proj-link: https://github.com/jgoeszoom/framework-overhead
 desc: "The varying types of neural network frameworks"
 img: "ML_frameworks.jpg"
 ---
-# Performance and User-friendliness of low-level vs higher-level deep neural network frameworks
 
 ## By Joseph Gozum, Jack Gu, Justin Lam
 

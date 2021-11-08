@@ -1,11 +1,10 @@
 ---
 layout: project
-title: "Diode Redesign"
+title: "Designing a Diode to handle higher voltages (>0.7V) through manipulation of STI and N+, P+ diffusion wells"
 proj-link: 
 desc: "Diode simulation results"
 img: "diode.png"
 ---
-# Designing a Diode to handle higher voltages (>0.7V) through manipulation of STI and N+, P+ diffusion wells
 
 ## By Joseph Gozum & Martin Liu
 

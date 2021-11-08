@@ -5,9 +5,8 @@ proj-link:
 desc: "Multum tramite tuens conplecti Cycnum aristas"
 img: "tacos.jpg"
 ---
-# Senectus cuperet
 
-## Armis pectine
+## By Joseph Gozum
 
 Lorem markdownum turis, una inque Chaonius inquit titubat pervenit mea capit
 differt sortes Amore morte Asopiades erat cecidere miscuit. Resolutum domus,
