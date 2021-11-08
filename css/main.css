@@ -24,6 +24,7 @@ img {
     margin: 0 auto;
     width: 80%;
 }
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -40,7 +41,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    color: var(--pal-1);
+    color: var(--pal-4);
 }
 h1 {
     font-size: 3em;
@@ -131,7 +132,7 @@ ul.projects li {
 .proj-link {
     width: 80%;
     margin: 0 auto;
-    color: var(--pal-5);
+    color: var(--pal-3);
 }
 
 .proj-thumb {
@@ -158,3 +159,25 @@ ul.projects li {
     text-decoration: none;
     color: var(--blue-300);
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 33%;
+  }
+  
+.column {
+    flex: 33%;
+}
+
+.link-tile {
+    background-color: var(--pal-2); 
+    border-radius: 0.5em;
+    padding: 80px; 
+    margin-bottom: 0.25em;
+    margin-right: 0.25em;
+    border: 1px solid var(--pal-1);
+    color: var(--pal-3); 
+    text-align: center;
+}
+
